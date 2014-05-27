@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.giz.fragtest.CheckedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:orientation="vertical"    
+    android:padding="15dip"
+    android:background="@drawable/item_background"
+   
+>
+<!--  android:background="@drawable/eventlist_item_background"  -->
+
+    <!-- android:baselineAligned="false"
+    android:gravity="center_vertical"
+     android:layout_weight="1"-->
+    
+    <!-- style="?android:attr/listSeparatorTextViewStyle" -->
+
+    <CheckedTextView
+        android:id="@+id/item_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dip"
+        android:checkMark="@null"
+        android:includeFontPadding="False"
+        android:padding="0dip"
+        android:text="Country"
+        android:textColor="@drawable/item_text"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    <!--         -->
+
+     <TextView
+        android:id="@+id/item_text2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Continent"
+      
+         android:checkMark="@null"
+         />  
+         
+     <!--   android:textColor="@drawable/eventlist_item_text_gray" -->
+   
+
+ 
+
+</com.giz.fragtest.CheckedLinearLayout>
